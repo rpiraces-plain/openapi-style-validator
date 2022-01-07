@@ -19,6 +19,6 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: 'modules/cli/build/libs/*.jar'
+    PathtoPublish: 'modules/cli/build/libs/'
     ArtifactName: 'jar'
     publishLocation: 'Container'
